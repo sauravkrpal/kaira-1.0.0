@@ -1,0 +1,59 @@
+/* Dark Theme Styles */
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+}
+
+.navbar, .offcanvas, .offcanvas-body, .newsletter, .categories, .features, .testimonials, .product-carousel {
+  background-color: #1e1e1e; /* Darker background for sections */
+  color: #ffffff;
+}
+
+.navbar a, .btn, .btn-link, .item-anchor {
+  color: #ffffff; /* Light text for links and buttons */
+}
+
+.navbar a:hover, .btn:hover, .btn-link:hover, .item-anchor:hover {
+  color: #00bcd4; /* Accent color for hover effects */
+}
+
+.section-title, .element-title, h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* Light headings */
+}
+
+.btn-dark {
+  background-color: #333333; /* Dark button background */
+  color: #ffffff;
+}
+
+.btn-dark:hover {
+  background-color: #444444; /* Slightly lighter on hover */
+}
+
+.swiper-slide, .product-item, .testimonial-item, .cat-item {
+  background-color: #1e1e1e; /* Darker background for cards */
+  color: #ffffff;
+}
+
+input, textarea, select {
+  background-color: #333333; /* Dark input fields */
+  color: #ffffff;
+  border: 1px solid #444444;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaaaaa; /* Placeholder text color */
+}
+
+.social-links a {
+  color: #ffffff;
+}
+
+.social-links a:hover {
+  color: #00bcd4; /* Accent color for social icons */
+}
+
+#billboard .section-title, 
+#billboard p {
+  color: black;
+}
