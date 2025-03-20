@@ -49,11 +49,45 @@ input::placeholder, textarea::placeholder {
   color: #ffffff;
 }
 
-.social-links a:hover {
+social-links a:hover {
   color: #00bcd4; /* Accent color for social icons */
 }
 
 #billboard .section-title, 
 #billboard p {
   color: black;
+}
+
+.collection-content p {
+  color: black; /* Change text color to black */
+}
+
+.collection-content h3 {
+  color: black; /* Change title color to black */
+}
+
+.testimonial-item blockquote p {
+  color: gray; /* Change testimonial text color to gray */
+}
+
+.testimonial-item .review-title {
+  color: gray; /* Change testimonial title color to gray */
+}
+
+#new-arrival h4 {
+  color: gray; /* Change title color to gray */
+}
+
+.section-header .section-title {
+  color: gray; /* Change "WE LOVE GOOD COMPLIMENT" text color to gray */
+}
+
+.product-item .product-content h5,
+.product-item .product-content a span {
+  color: white; /* Change text and price color to white */
+}
+
+.product-item .product-content h5 a,
+.product-item .product-content a.text-decoration-none {
+  color: white; /* Change product name and "Add to cart" button text color to white */
 }
